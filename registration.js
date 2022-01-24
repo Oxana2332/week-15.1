@@ -1,10 +1,10 @@
 function check() {
-    let fname = document.getElementById("fname");
-    let lname = document.getElementById("lname");
-    let password = document.getElementById("password");
-    let email = document.getElementById("email");
-    let tel = document.getElementById("tel");
-    let chbox = document.getElementById('checkbox');
+    const fname = document.getElementById("fname");
+    const lname = document.getElementById("lname");
+    const password = document.getElementById("password");
+    const email = document.getElementById("email");
+    const tel = document.getElementById("tel");
+    const chbox = document.getElementById('checkbox');
 
     document.getElementById('error').innerHTML = "";
 
